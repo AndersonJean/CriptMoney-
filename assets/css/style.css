@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background: linear-gradient(to bottom right, #0c0b15, #1e4920);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header .logo h1 a{
+    color: #15c65f;
+}
+
+header .logo a span{
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1208px;
+    border: 1px solid red;
+}
